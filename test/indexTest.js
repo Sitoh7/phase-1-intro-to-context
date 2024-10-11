@@ -51,7 +51,7 @@ describe("The payroll system", function () {
         ["moe", "sizlak", "barkeep", 2],
         ["bartholomew", "simpson", "scamp", 3]
       ]
-
+      
       it("creates two records", function () {
         let employeeRecords = createEmployeeRecords(twoRows)
         expect(employeeRecords.length).to.equal(2)
